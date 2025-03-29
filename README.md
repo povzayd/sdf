@@ -1,10 +1,10 @@
-Socofi (Source Code Finder) 🔍💻
+`Socofi` (Source Code Finder) 🔍💻
 
-Socofi is designed to help developers and security professionals discover leaked source code on specified domains.
+`Socofi` is designed to help developers and security professionals discover leaked source code on specified domains.
 
 🚀 Introduction
 
-Socofi is a powerful ⚡ Bash script designed to help developers and security professionals discover leaked source code on a given domain. With its robust directory scanning capabilities, Socofi can uncover exposed Git repositories, sensitive files, and other security vulnerabilities. 🛡️
+`Socofi` is a powerful ⚡ Bash script designed to help developers and security professionals discover leaked source code on a given domain. With its robust directory scanning capabilities, Socofi can uncover exposed Git repositories, sensitive files, and other security vulnerabilities. 🛡️
 
 ✨ Features
 
@@ -28,21 +28,21 @@ Before using Socofi, ensure that your system meets the following requirements:
 🖥 Operating System: Unix-like (e.g., Linux, macOS).
 📦 Dependencies:
 
-🐚 bash
+`🐚 bash`
 
-🌐 curl
+`🌐 curl`
 
-🏎️ parallel
+`🏎️ parallel`
 
 
 Install dependencies using your package manager. Example for Debian-based systems:
-
+```
 sudo apt-get update  
 sudo apt-get install curl parallel
-
+```
 🔧 Installation
 
-To install socofi:
+To install `socofi`:
 
 1️⃣ Clone the repository:
 ```

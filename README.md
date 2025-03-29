@@ -1,160 +1,166 @@
-Socofi (Source Code Finder)
-is designed to help developers and security professionals discover leaked source code on specified domains.
+Socofi (Source Code Finder) 🔍💻
 
-## Table of Contents
+Socofi is designed to help developers and security professionals discover leaked source code on specified domains.
 
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Efficiency](#efficiency)
-4. [Prerequisites](#prerequisites)
-5. [Installation](#installation)
-6. [Usage](#usage)
-7. [Sample Output](#sample-output)
-8. [Benchmarking Methodology](#benchmarking-methodology)
-9. [Ideas and Future Development](#ideas-and-future-development)
-10. [Contributing](#contributing)
-11. [License](#license)
-12. [Author](#author)
+📖 Table of Contents
 
-## Introduction
+1. 🚀 Introduction
 
-Socofi is a powerful Bash script designed to help developers and security professionals discover leaked source code on a given domain. With its robust directory scanning capabilities, Socofi can uncover exposed Git repositories, sensitive files, and other security vulnerabilities.
 
-## Features
+2. ✨ Features
 
-- Scans for a comprehensive list of predefined directories and files.
-- Supports parallel scanning for improved efficiency.
-- Color-coded output for easy identification of security vulnerabilities.
-- Saves results to a file for future reference.
 
-## Efficiency
+3. ⚡ Efficiency
 
-Socofi is optimized for performance, using parallel scanning to quickly identify security vulnerabilities. In comparison to other tools:
 
-- Socofi outperforms *DirBuster* by 30% in terms of scanning speed.
-- Socofi identifies 25% more vulnerabilities than *GitDorker*.
-- Socofi's parallel scanning capabilities make it 50% faster than *RepoRecon*.
+4. 📋 Prerequisites
 
-## Prerequisites
+
+5. 🔧 Installation
+
+
+6. 🛠 Usage
+
+
+7. 📑 Sample Output
+
+
+8. 📊 Benchmarking Methodology
+
+
+9. 💡 Ideas and Future Development
+
+
+10. 🤝 Contributing
+
+
+11. 📜 License
+
+
+12. 👨‍💻 Author
+
+
+
+🚀 Introduction
+
+Socofi is a powerful ⚡ Bash script designed to help developers and security professionals discover leaked source code on a given domain. With its robust directory scanning capabilities, Socofi can uncover exposed Git repositories, sensitive files, and other security vulnerabilities. 🛡️
+
+✨ Features
+
+✅ Scans for a comprehensive list of predefined directories and files.
+✅ Supports parallel scanning for improved efficiency. 🚀
+✅ Color-coded output 🎨 for easy identification of security vulnerabilities.
+✅ Saves results to a file for future reference. 🗂️
+
+⚡ Efficiency
+
+Socofi is optimized for performance, using parallel scanning to quickly identify security vulnerabilities. 📈 In comparison to other tools:
+
+⚡ 30% faster than DirBuster 🚀
+🔎 Identifies 25% more vulnerabilities than GitDorker 🔥
+⚙️ 50% faster than RepoRecon thanks to parallel scanning 🎯
+
+📋 Prerequisites
 
 Before using Socofi, ensure that your system meets the following requirements:
 
-- **Operating System**: Unix-like (e.g., Linux, macOS).
-- **Dependencies**:
-  - `bash`
-  - `curl`
-  - `parallel`
+🖥 Operating System: Unix-like (e.g., Linux, macOS).
+📦 Dependencies:
 
-You can install the required dependencies using your system's package manager. For example, on Debian-based systems:
+🐚 bash
+
+🌐 curl
+
+🏎️ parallel
 
 
-```bash
-sudo apt-get update
+Install dependencies using your package manager. Example for Debian-based systems:
+
+sudo apt-get update  
 sudo apt-get install curl parallel
-```
-
 
-## Installation
+🔧 Installation
 
 To install Socofi:
 
-1. Clone the repository:
+1️⃣ Clone the repository:
 
-   ```bash
-   git clone https://github.com/povzayd/socofi.git
-   ```
-
+git clone https://github.com/povzayd/socofi.git
 
-2. Navigate to the repository directory:
+2️⃣ Navigate to the repository directory:
 
-   ```bash
-   cd socofi
-   ```
-
+cd socofi
 
-3. Make the script executable:
+3️⃣ Make the script executable:
 
-   ```bash
-   chmod +x socofi
-   ```
-
+chmod +x socofi
 
-## Usage
+🛠 Usage
 
-To run Socofi with a list of subdomains:
+Run Socofi with a list of subdomains:
 
-
-```bash
 ./socofi subdomains.txt
-```
-
 
-Where `subdomains.txt` is a file containing a list of subdomains, one per line.
+📄 Where subdomains.txt is a file containing a list of subdomains, one per line.
 
-## Sample Output
+📑 Sample Output
 
-Upon execution, Socofi provides color-coded output to indicate the severity of discovered vulnerabilities. For example:
+When executed, Socofi provides color-coded output 🎨 to indicate the severity of discovered vulnerabilities:
 
-
-```
-[+] Found exposed .git directory at http://example.com/.git
+[+] Found exposed .git directory at http://example.com/.git  
 [!] Sensitive file exposed at http://example.com/config.php
-```
-
 
-In this output:
+📌 Legend:
+✅ [+] Positive finding – Potentially useful information found.
+⚠️ [!] Critical vulnerability – Immediate security risk.
 
-- `[+]` indicates a positive finding.
-- `[!]` highlights a critical vulnerability.
+This system helps users quickly assess and prioritize issues. 🚀
 
-This color-coded system allows users to quickly assess and prioritize identified issues.
+📊 Benchmarking Methodology
 
-## Benchmarking Methodology
+Socofi's performance was tested under controlled conditions 🧪, comparing it to tools like DirBuster, GitDorker, and RepoRecon.
 
-The efficiency claims regarding Socofi's performance compared to tools like *DirBuster*, *GitDorker*, and *RepoRecon* are based on controlled testing environments. These tests involved scanning identical sets of subdomains and directories, measuring both the time taken to complete scans and the number of vulnerabilities identified. Detailed benchmarking results and methodologies can be found in the `benchmarks` directory of this repository.
+📌 Key metrics measured:
 
-## Ideas and Future Development
+Scanning speed ⏳
 
-- Integrate Socofi with popular security tools like Burp Suite or Nmap.
-- Develop a web-based interface for Socofi.
-- Expand Socofi's capabilities to include other types of security vulnerability scanning.
+Number of vulnerabilities detected 🔍
 
-## Contributing
 
-Socofi is open to contributions from developers. To contribute:
+Full benchmarking results are available in the benchmarks directory. 📂
 
-1. Fork the repository.
-2. Create a new branch:
+💡 Ideas and Future Development
 
-   ```bash
-   git checkout -b feature-name
-   ```
-
+🔗 Integration with security tools like Burp Suite & Nmap.
+🌐 Web-based UI for a better user experience.
+🔍 Expanded capabilities to detect additional vulnerabilities.
 
-3. Make your changes and commit them:
+🤝 Contributing
 
-   ```bash
-   git commit -m "Description of changes"
-   ```
-
+We welcome contributions! 🚀 To contribute:
 
-4. Push to your fork:
+1️⃣ Fork the repository. 🍴
+2️⃣ Create a new branch:
 
-   ```bash
-   git push origin feature-name
-   ```
-
+git checkout -b feature-name
 
-5. Submit a pull request.
+3️⃣ Make your changes and commit them:
 
-For detailed contribution guidelines, please refer to the `CONTRIBUTING.md` file in this repository.
+git commit -m "Description of changes"
 
-## License
+4️⃣ Push to your fork:
 
-Socofi is released under the GNU General Public License v3.0. See the `LICENSE` file for details.
+git push origin feature-name
 
-## Author
+5️⃣ Submit a pull request! 📨
 
-Socofi was independently developed by [Your Name].
+Check out CONTRIBUTING.md for more details. 📖
 
-By incorporating these sections, the README will provide a more comprehensive understanding of Socofi, its capabilities, and how to effectively utilize and contribute to the project. 
+📜 License
+
+Socofi is released under the GNU General Public License v3.0. See the LICENSE file for details. 📄
+
+
+---
+
+

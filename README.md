@@ -17,9 +17,9 @@
 
 Socofi is optimized for performance, using parallel scanning to quickly identify security vulnerabilities. 📈 In comparison to other tools:
 
-⚡ 30% faster than DirBuster 🚀
-🔎 Identifies 25% more vulnerabilities than GitDorker 🔥
-⚙️ 50% faster than RepoRecon thanks to parallel scanning 🎯
+⚡ 30% faster than DirBuster 🚀                                                                           
+🔎 Identifies 25% more vulnerabilities than GitDorker 🔥                                                                             
+⚙️ 50% faster than RepoRecon thanks to parallel scanning 🎯                                                            
 
 📋 Prerequisites
 

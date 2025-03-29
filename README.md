@@ -74,9 +74,11 @@ When executed, Socofi provides color-coded output 🎨 to indicate the severity 
 [!] Sensitive file exposed at http://example.com/config.php
 ```
 📌 Legend:
+```
+bash
 ✅ [+] Positive finding – Potentially useful information found.
 ⚠️ [!] Critical vulnerability – Immediate security risk.
-
+```
 This system helps users quickly assess and prioritize issues. 🚀
 
 📊 Benchmarking Methodology
@@ -118,7 +120,7 @@ git push origin feature-name
 ```
 5️⃣ Submit a pull request! 📨
 
-Check out `CONTRIBUTING.md` for more details. 📖
+Check out `CONTRIBUTION.md` for more details. 📖
 
 📜 License
 

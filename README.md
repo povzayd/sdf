@@ -2,45 +2,6 @@ Socofi (Source Code Finder) 🔍💻
 
 Socofi is designed to help developers and security professionals discover leaked source code on specified domains.
 
-📖 Table of Contents
-
-1. 🚀 Introduction
-
-
-2. ✨ Features
-
-
-3. ⚡ Efficiency
-
-
-4. 📋 Prerequisites
-
-
-5. 🔧 Installation
-
-
-6. 🛠 Usage
-
-
-7. 📑 Sample Output
-
-
-8. 📊 Benchmarking Methodology
-
-
-9. 💡 Ideas and Future Development
-
-
-10. 🤝 Contributing
-
-
-11. 📜 License
-
-
-12. 👨‍💻 Author
-
-
-
 🚀 Introduction
 
 Socofi is a powerful ⚡ Bash script designed to help developers and security professionals discover leaked source code on a given domain. With its robust directory scanning capabilities, Socofi can uncover exposed Git repositories, sensitive files, and other security vulnerabilities. 🛡️
@@ -81,35 +42,37 @@ sudo apt-get install curl parallel
 
 🔧 Installation
 
-To install Socofi:
+To install socofi:
 
 1️⃣ Clone the repository:
-
+```
 git clone https://github.com/povzayd/socofi.git
+```
 
 2️⃣ Navigate to the repository directory:
-
+```
 cd socofi
+```
 
 3️⃣ Make the script executable:
-
+```
 chmod +x socofi
-
+```
 🛠 Usage
 
 Run Socofi with a list of subdomains:
-
+```
 ./socofi subdomains.txt
-
+```
 📄 Where subdomains.txt is a file containing a list of subdomains, one per line.
 
 📑 Sample Output
 
 When executed, Socofi provides color-coded output 🎨 to indicate the severity of discovered vulnerabilities:
-
+```
 [+] Found exposed .git directory at http://example.com/.git  
 [!] Sensitive file exposed at http://example.com/config.php
-
+```
 📌 Legend:
 ✅ [+] Positive finding – Potentially useful information found.
 ⚠️ [!] Critical vulnerability – Immediate security risk.
@@ -141,20 +104,21 @@ We welcome contributions! 🚀 To contribute:
 
 1️⃣ Fork the repository. 🍴
 2️⃣ Create a new branch:
-
+```
 git checkout -b feature-name
+```
 
 3️⃣ Make your changes and commit them:
-
+```
 git commit -m "Description of changes"
-
+```
 4️⃣ Push to your fork:
-
+```
 git push origin feature-name
-
+```
 5️⃣ Submit a pull request! 📨
 
-Check out CONTRIBUTING.md for more details. 📖
+Check out `CONTRIBUTING.md` for more details. 📖
 
 📜 License
 

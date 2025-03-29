@@ -96,9 +96,9 @@ Full benchmarking results are available in the benchmarks directory. 📂
 
 💡 Ideas and Future Development
 
-🔗 Integration with security tools like Burp Suite & Nmap.
-🌐 Web-based UI for a better user experience.
-🔍 Expanded capabilities to detect additional vulnerabilities.
+``🔗 Integration with security tools like Burp Suite & Nmap.``
+`🌐 Web-based UI for a better user experience.`
+`🔍 Expanded capabilities to detect additional vulnerabilities.`
 
 🤝 Contributing
 

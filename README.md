@@ -96,31 +96,13 @@ Full benchmarking results are available in the benchmarks directory. 📂
 
 💡 Ideas and Future Development
 
-``🔗 Integration with security tools like Burp Suite & Nmap.``
-`🌐 Web-based UI for a better user experience.`
-`🔍 Expanded capabilities to detect additional vulnerabilities.`
+🔗 Integration with security tools like Burp Suite & Nmap.                                                      
+🌐 Web-based UI for a better user experience.                                                                            
+🔍 Expanded capabilities to detect additional vulnerabilities.
 
 🤝 Contributing
 
-We welcome contributions! 🚀 To contribute:
-
-1️⃣ Fork the repository. 🍴
-2️⃣ Create a new branch:
-```
-git checkout -b feature-name
-```
-
-3️⃣ Make your changes and commit them:
-```
-git commit -m "Description of changes"
-```
-4️⃣ Push to your fork:
-```
-git push origin feature-name
-```
-5️⃣ Submit a pull request! 📨
-
-Check out `CONTRIBUTION.md` for more details. 📖
+Check out [CONTRIBUTION.md](#CONTRIBUTION.md) for more details. 📖
 
 📜 License
 
